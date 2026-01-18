@@ -9,6 +9,7 @@ import { cn } from '@/lib/utils';
 import { AnimatePresence, motion } from 'motion/react';
 import { getHex } from './mode-toggle';
 
+//aaa
 const ParticlesComponent = ({ className }: { className: string }) => {
     const { resolvedTheme } = useTheme();
     const [, setInit] = useState(false);
